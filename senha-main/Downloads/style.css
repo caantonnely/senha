@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
+
+:root {
+    --branco: white;
+    --cor-de-fundo: #ee7feed5;
+    --fundo-senha: #000000;
+    --fundo-texto: #c5afc5;
+    --borda: #d860f0;
+    --Karla: 'Libertinus Math' monospace;
+}
+
+
+
+body {
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--Libertinus Math);
+}
+
+
+.titulo-principal {
+    font-family: var(--Libertinus Math);
+    font-size: 32px;
+}
+
+.titulo-secundario {
+    font-size: 24px;
+}
+
+
+.conteudo-titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.conteudo-senha {
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+
+
+}
+
+#campo-senha {
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--Libertinus Math);
+    font-size: 40px;
+    width: 70%;
+}
